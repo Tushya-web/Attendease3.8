@@ -1,4 +1,3 @@
-# Attendease3.8
 
 <center><img width="290" height="80" alt="AttendEase" src="https://github.com/user-attachments/assets/18f6c229-4bda-4c21-b791-4ee18e2ccdc3" /></center>
 
@@ -55,9 +54,86 @@ It features secure face verification, user registration, attendance tracking, le
 ### User Dashboard
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a01975f3-d9c7-4a8c-ad60-820e106b4042" alt="User Dashboard" width="800"/>
-![GitHub issues](https://img.shields.io/github/issues/Tushya-web/Attendease_3.9?style=flat)
+</p>
 
 
+
+## Demo
+https://github.com/user-attachments/assets/03b4130c-6bcc-4957-811b-0bff7711e6cb 
+
+## Features
+- Django-based full-stack architecture
+- Gemini AI Chatbot for Information & Assistance 
+- DeepFace FaceNet-based face matching  
+- Secure master-face verification  
+- Real-time webcam-based recognition  
+- IN/OUT time-based attendance  
+- User + Admin dashboards  
+- Leave management system  
+- Attendance export (CSV/PDF)  
+
+## Project Information
+
+- Django-based Web Application
+- Face Recognition using DeepFace (FaceNet backend)
+- Real-Time Attendance Marking with Liveness Detection
+- Admin Dashboard Powered by Jazzmin
+- Student/Employee Management
+- Daily Attendance, Time-based Attendance (IN/OUT)
+- Export Attendance as CSV/Excel
+- Responsive UI (HTML, CSS, JS)
+
+## Gemini AI Integration
+- AttendEase uses a Gemini-powered chatbot as an intelligent assistant to provide
+system-related information, attendance rules, and user guidance through
+conversational AI, improving usability and system understanding.
+
+## AI + Face Verification
+- DeepFace with FaceNet model
+- Real-time webcam recognition
+- Liveness detection (anti-spoofing)
+- Face must match the master/default face uploaded by admin
+
+## User Portal
+- Register & Login
+- Add face (must match master data)
+- Mark attendance
+- View attendance
+- View uploaded faces
+- Apply for leave
+- Update personal information
+- Download attendance (PDF/CSV)
+
+## Admin Panel (Jazzmin Dashboard)
+- Upload master data (student/faculty records)
+- Approve or reject user registration
+- Manage users, faculty, students
+- Approve/reject leave requests
+- Manage face entries
+- View attendance analytics
+- Export attendance reports
+
+### Installation & Setup (Step-by-Step)
+
+**1️. Clone the Repository**
+```
+git clone https://github.com/Tushya-web/Attendease.git
+
+```
+
+**2️. Create Virtual Environment**
+```
+python -m venv env
+
+source env/bin/activate   # Linux/Mac
+
+env\Scripts\activate      # Windows
+```
+
+**3️. Install Dependencies**
+```
+pip install -r requirements.txt
+```
 
 **4️. Apply Migrations**
 ```
@@ -119,4 +195,3 @@ AI and Computer Vision Enthusiast
 ![GitHub Repo stars](https://img.shields.io/github/stars/Tushya-web/Attendease_3.9?style=flat)
 ![GitHub forks](https://img.shields.io/github/forks/Tushya-web/Attendease_3.9?style=flat)
 ![GitHub issues](https://img.shields.io/github/issues/Tushya-web/Attendease_3.9?style=flat)
-
