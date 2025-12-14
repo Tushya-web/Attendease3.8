@@ -56,3 +56,67 @@ It features secure face verification, user registration, attendance tracking, le
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a01975f3-d9c7-4a8c-ad60-820e106b4042" alt="User Dashboard" width="800"/>
 ![GitHub issues](https://img.shields.io/github/issues/Tushya-web/Attendease_3.9?style=flat)
+
+
+
+**4️. Apply Migrations**
+```
+python manage.py makemigrations
+
+python manage.py migrate
+```
+
+**5️. Create Superuser (Admin Login)**
+```
+python manage.py createsuperuser
+```
+
+**6️. Run Development Server**
+```
+python manage.py runserver
+```
+
+## Project Structure
+```
+AttendEase/
+│
+├── attendease/                 # Django project configuration
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+│
+├── accounts_app/             # Core attendance application
+│   ├── models.py               # Database models
+│   ├── views.py                # Request handling logic
+│   ├── facesystem.py/          # Face detection & recognition modules
+│   ├── forms.py/               # For custom forms
+│   ├── templates/              # HTML templates
+│   ├── static/                 # CSS, JavaScript, assets
+│   ├── utils/                  # Helper functions
+│   └── urls.py
+│
+├── static/                     # Css & js for Admin Dashboard
+├── staticfiles/
+├── media/                      # Face image storage
+│   ├── master_faces/           # Registered faces
+│   ├── Master_data_csv/        # csv file store here
+│   ├── deepface_model/         # Deepface Facenet Model stores here
+│   └── user_faces/             # Captured attendance images
+│
+├── requirements.txt            # Python dependencies
+└── README.md                   # Project documentation
+```
+
+### Author
+
+Tushya R. Parmar
+
+AI and Computer Vision Enthusiast
+
+> Disclaimer: This project is created for educational and academic purposes only. It is not affiliated with or based on any existing product, company, or trademark.
+
+
+![GitHub Repo stars](https://img.shields.io/github/stars/Tushya-web/Attendease_3.9?style=flat)
+![GitHub forks](https://img.shields.io/github/forks/Tushya-web/Attendease_3.9?style=flat)
+![GitHub issues](https://img.shields.io/github/issues/Tushya-web/Attendease_3.9?style=flat)
+
